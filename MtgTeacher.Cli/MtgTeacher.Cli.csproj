@@ -1,0 +1,40 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net6.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <WarningsAsErrors>nullable</WarningsAsErrors>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="ConsoleAppFramework" Version="4.0.6" />
+        <PackageReference Include="LazyCache" Version="2.4.0" />
+        <PackageReference Include="LazyCache.AspNetCore" Version="2.4.0" />
+        <PackageReference Include="Microsoft.Extensions.Options.ConfigurationExtensions" Version="6.0.0" />
+        <PackageReference Include="ScryfallAPI.Client" Version="3.1.0" />
+        <PackageReference Include="System.Data.SQLite" Version="1.0.115.5" />
+        <PackageReference Include="System.Speech" Version="6.0.0" />
+        <PackageReference Include="Yandex.Cloud.SDK" Version="1.1.1" />
+        <PackageReference Include="YandexTranslateCoreSdk" Version="1.1.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <None Remove="appsettings.json" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <Content Include="appsettings.json">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </Content>
+        <Content Include="appsettings.Development.json">
+          <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </Content>
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Anki.NET5-master\AnkiSharp.csproj" />
+    </ItemGroup>
+
+</Project>
