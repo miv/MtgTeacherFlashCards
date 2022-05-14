@@ -2,5 +2,5 @@
 
 Запускать через MtgTeacher.Cli
 
-dotnet run -- --card-list-file <mtglist>
+`dotnet run -- --card-list-file <mtglist>`
 

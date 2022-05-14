@@ -1,0 +1,23 @@
+Deck
+3 The Meathook Massacre
+2 Lolth, Spider Queen
+4 Invoke Despair
+2 Sorin the Mirthless
+2 Skullport Merchant
+4 Tenacious Underdog
+1 Power Word Kill
+1 Infernal Grasp
+4 Shambling Ghast
+4 Deadly Dispute
+4 Eyetwitch
+3 Blood on the Snow
+4 Hive of the Eye Tyrant
+1 Takenuma, Abandoned Mire
+2 Field of Ruin
+19 Snow-Covered Swamp
+
+Sideboard
+1 Confront the Past
+2 Mascot Exhibition
+2 Environmental Sciences
+2 Pest Summoning
