@@ -79,7 +79,7 @@ public class App : ConsoleAppBase
 				var (enCard, ruCard) = await Scryfall(cardName, cancellationTokenSource, cancellationTokenSource.Token);
 				var enDictData = await Dict(enCard, cancellationTokenSource, cancellationTokenSource.Token);
 				cardsData.Add(new CardData(enCard, ruCard, enDictData));
-			}))
+			}, cancellationTokenSource.Token))
 			.ToList();
 
 		await Task.WhenAll(tasks);
